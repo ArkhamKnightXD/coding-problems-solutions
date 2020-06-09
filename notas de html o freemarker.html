@@ -1,0 +1,19 @@
+Este codigo es el recomendable cuando necesito seleccionar multiples elementos pues en el select indico el campo multiple,
+si solo desearia que se tomara una sola consola solo debo de borrar la palabra multiple del select
+
+
+<div class="mb-3">
+    <label for="idConsoles">Platforms of the game</label>
+
+    <div class="input-group">
+        <select multiple class="form-control" name="idConsoles" required>
+            <#list consoles as console>
+            <option value="${console.id}">${console.name} - ${console.developer} - ${console.consoleType} -
+                ${console.generation}
+            </option>
+        </#list>
+        </select>
+    </div>
+
+
+</div>
