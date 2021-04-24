@@ -1,0 +1,2 @@
+Solucion para cuando lanza error Npgsql.NpgsqlException: 'Exception while connecting en dataContext.Database.Migrate();
+Se debe de entrar appsettings.Development.json y cambiar la url de fraga por la de devfraga
