@@ -1,0 +1,2 @@
+Al parecer ademas de que los contenedores esten en la misma red tambien se deben de llamar asi mismo por su container_name en vez de localhost
+en mi caso tuve que utilizar docker-squat-drae:4000 para solucionar finalmente el problema de conexion
